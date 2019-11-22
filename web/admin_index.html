@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor1/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css_file/css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#" style="color: whitesmoke;background-color: #0056b3">
+                        Online Examination System
+                    </a>
+                </li>
+                <li>
+                    <a href="admin_index.html">Home</a>
+                </li>
+                <li>
+                    <a href="AdminPanel/ShowallStudent.jsp">Student Management</a>
+                </li>
+                <li>
+                    <a href="AdminPanel/ShowAllSubject.jsp">Subject Management</a>
+                </li>
+                <li>
+                    <a href="AdminPanel/ShowAllAnswers.jsp">Report Management</a>
+                </li>
+                <li>
+                    <a href="AdminPanel/AddQuestions.jsp">Question Management</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="user_login.jsp">Logout</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <h1><center><i>WELCOME ADMIN ZONE</i></center></h1>
+                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+            </div><br>
+            <h5 style="border:2px solid #000;">
+            <p style="font-size:40px;">Student Management</p>
+            <p style="color:red;">You can View Add,Delete and Update the already added Student Details.</p>
+            </h5>
+            <h5 style="border:2px solid #000;">
+            <p style="font-size:40px;">Subject Management</p>
+            <p style="color:red;">You can View,Delete,Update the already added Subject under this Subject Management section.</p>
+            </h5>
+            <h5 style="border:2px solid #000;">
+            <p style="font-size:40px;">Report Management</p>
+            <p style="color:red;">You can view the overall Report of the students under this Report Management section.</p>
+            </h5>
+            <h5 style="border:2px solid #000;">
+            <p style="font-size:40px;">Question Management</p>
+            <p style="color:red;">You can View,Delete,Update the already added question under this Question Management section.</p>
+            </h5>
+            
+            
+            
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor1/jquery/jquery.min.js"></script>
+    <script src="vendor1/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
